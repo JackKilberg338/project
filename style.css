@@ -1,0 +1,56 @@
+
+body{margin: 0px; background-color: blue;}
+h1{text-align: center;}
+li{list-style-type: decimal;}
+a{text-decoration: none;}
+a:hover{color: white;}
+a:active{color: white;}
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf');
+    font-weight: normal;}
+h1,h2,h3,h4,h5,h6,p,li,a,label{font-family: 'Inter';color: white;}
+header{display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+header img{width: 100px;}
+.line{height: 100px;
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.punkt{width: 920px;
+    margin: 0px auto;}
+.punkt{display: flex;
+    align-items: center;
+    justify-content: center;}
+.punkt li{font-size: 21px;}
+.punkt img{width: 200px;border-radius: 25px;}
+
+.punkt1{display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;}
+.punkt1 img{width: 925px;
+    border-radius: 25px;}
+
+    .punkt1 .punkt img{width: 200px;}
+    .punkt1 .punkt li{font-size: 17px;}
+
+.opros{display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+#press {display: none;}
+.spoiler > .block {display: none;}
+.spoiler > input:checked + .block {display: block;}
+.label { color: white;
+    display: flex;
+    font-size: 1.5em;
+    height: 50px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;}
